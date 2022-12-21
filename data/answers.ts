@@ -47,8 +47,8 @@ export function updateQueue() {
       PlayedSongs.set(justPlayedSong.songName, justPlayedSong.fileName);
     }
 
-    console.log("QUEUED SONGS:", QueuedSongs);
-    console.log("PLAYED SONGS:", PlayedSongs);
+    // console.log("QUEUED SONGS:", QueuedSongs);
+    // console.log("PLAYED SONGS:", PlayedSongs);
 
     return getLastItemInMap(QueuedSongs);
   }
